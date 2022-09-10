@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<dos.h>
+#include<conio.h>
+
+#define LPT1 0x378
+
+int main(){
+	unsigned char Valor=128;
+	int pino=0;
+	while( Valor > 0)
+	{
+		outportb(LPT1, Valor);
+		printf("pressione qualquer tecla\n");
+		getch();
+		printf("pino: ",numero);
+		Valor = Valor >> 1;
+		pino = pino + 1;
+
+	}
+
+
+
+return 0;
+
+}

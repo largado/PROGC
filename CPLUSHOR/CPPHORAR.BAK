@@ -1,0 +1,7 @@
+
+void main(){
+
+	cout << "teste\n";
+
+
+}
